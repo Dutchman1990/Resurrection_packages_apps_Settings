@@ -48,11 +48,15 @@ public class QsPanel extends SettingsPreferenceFragment  implements Preference.O
  private static final String STATUS_BAR_QUICK_QS_PULLDOWN = "qs_quick_pulldown";
  private static final String PREF_SMART_PULLDOWN = "smart_pulldown";
  private static final String PREF_NUM_COLUMNS = "sysui_qs_num_columns";
+ private static final String PREF_TILE_ANIM_STYLE = "qs_tile_animation_style";
+ private static final String PREF_TILE_ANIM_DURATION = "qs_tile_animation_duration";
 
     private SwitchPreference mBlockOnSecureKeyguard;
     private ListPreference mQuickPulldown;
     private ListPreference mSmartPulldown;
-    private ListPreference mNumColumns;	
+    private ListPreference mNumColumns;
+    private ListPreference mTileAnimationStyle;
+    private ListPreference mTileAnimationDuration;
     	
     private static final int MY_USER_ID = UserHandle.myUserId();
     @Override
